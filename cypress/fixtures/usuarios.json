@@ -1,0 +1,13 @@
+{
+    "usuarioValido": {
+      "nome": "Anderson QA",
+      "email": "anderson_qa_teste@serverest.dev",
+      "password": "teste123",
+      "administrador": "true"
+    },
+    "usuarioInvalido": {
+      "email": "email@invalido.com",
+      "password": "errado"
+    }
+  }
+

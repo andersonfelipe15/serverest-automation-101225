@@ -1,0 +1,19 @@
+# Ignora a pasta de dependências
+node_modules/
+
+# Ignora cache do Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Ignora cache do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora logs
+*.log
+
+# Ignora configurações do editor de código (VS Code por exemplo)
+.vscode/
+
+# Ignora ambiente de teste local
+.env

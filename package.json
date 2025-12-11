@@ -1,0 +1,18 @@
+{
+  "name": "serverest-automation",
+  "version": "1.0.0",
+  "description": "Testes automatizados de Front e API usando Cypress com Serverest",
+  
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "test:front": "cypress run --spec \"cypress/e2e/front/**/*.cy.js\"",
+    "cy:open": "cypress open",
+    "cy:open:api": "cypress open --config \"specPattern=cypress/e2e/api/**/*.cy.js\"",
+    "cy:open:front": "cypress open --config \"specPattern=cypress/e2e/front/**/*.cy.js\""
+  },
+
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  }
+}

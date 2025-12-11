@@ -1,0 +1,9 @@
+{
+    "produtoValido": {
+      "nome": "Produto de Teste",
+      "preco": 150,
+      "descricao": "Produto de automação",
+      "quantidade": 5
+    }
+}
+  
