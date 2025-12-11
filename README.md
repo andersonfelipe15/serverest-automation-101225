@@ -82,16 +82,24 @@ Faker.js	Geração de massa dinâmica
 Serverest API	Backend utilizado como alvo dos cenários
 
 # 🚀 6. Instalação e Execução
-Instalar dependências
-npm install
+Instalar dependências:
 
-▶️ Rodar Front
+npm init -y
+
+E DEPOIS RODE:
+
+npm install cypress --save-dev
+
+▶️ Rodar Front:
+
 npm run test:front
 
-▶️ Rodar API
+▶️ Rodar API:
+
 npm run test:api
 
-▶️ Abrir Cypress interativo
+▶️ Abrir Cypress interativo:
+
 npm run cy:open
 
 # 🧪 7. Cenários Automatizados
